@@ -1,0 +1,20 @@
+{
+  "calibration": [
+    {"q": "address proof", "relevant": ["utility bill", "A recent utility bill showing the client's residential address.", "The client has not provided a utility bill yet."], "irrelevant": ["We need to prove that an algorithm is correct.", "Chocolate cake recipe: combine flour, eggs and cocoa; bake for thirty minutes.", "A mathematical proof of a theorem in graph theory."]},
+    {"q": "identity verification", "relevant": ["A copy of the client's passport photograph page."], "irrelevant": ["We need to prove that an algorithm is correct.", "Chocolate cake recipe: combine flour, eggs and cocoa; bake for thirty minutes."]},
+    {"q": "employment income", "relevant": ["Monthly payslip showing salary and employer details."], "irrelevant": ["A mathematical proof of a theorem in graph theory.", "Chocolate cake recipe: combine flour, eggs and cocoa; bake for thirty minutes."]},
+    {"q": "quantum entanglement", "relevant": [], "irrelevant": ["utility bill", "A copy of the client's passport photograph page.", "Monthly payslip showing salary and employer details."]}
+  ],
+  "validation": [
+    {"q": "address proof", "relevant": ["Electricity statement listing the customer's home address.", "The client still needs to submit a recent water invoice showing their home address.", "Bank statement with a current residential address."], "irrelevant": ["The lecturer presented a formal proof of a mathematical theorem.", "Proofread the cover letter before sending the job application.", "A recipe for roasting potatoes with rosemary."]},
+    {"q": "identity verification", "relevant": ["Government-issued driving licence with a portrait and full name."], "irrelevant": ["In algebra, an identity is an equation that holds for all possible values.", "A recipe for roasting potatoes with rosemary."]},
+    {"q": "employment income", "relevant": ["Employer letter confirming annual salary and ongoing employment."], "irrelevant": ["Today's weather forecast predicts rain and strong winds.", "The lecturer presented a formal proof of a mathematical theorem."]},
+    {"q": "volcanic ash dispersal", "relevant": [], "irrelevant": ["Electricity statement listing the customer's home address.", "Government-issued driving licence with a portrait and full name.", "Employer letter confirming annual salary and ongoing employment."]}
+  ],
+  "holdout": [
+    {"q": "address proof", "relevant": ["A gas supplier's invoice displaying the client's name and residential address.", "The requested council tax statement has not yet been received from the customer."], "irrelevant": ["An article proving termination of a sorting procedure.", "The presenter addressed a complaint about a geometry proof."]},
+    {"q": "identity verification", "relevant": ["Scan of a national ID card showing a photograph and the holder's name."], "irrelevant": ["A software design describing identity functions and mathematical equivalence."]},
+    {"q": "employment income", "relevant": ["Salary statement issued by the employer for October."], "irrelevant": ["Guide to repairing a bicycle chain."]},
+    {"q": "tectonic plate movement", "relevant": [], "irrelevant": ["A gas supplier's invoice displaying the client's name and residential address.", "Scan of a national ID card showing a photograph and the holder's name.", "Salary statement issued by the employer for October."]}
+  ]
+}
