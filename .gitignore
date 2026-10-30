@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+data/
+models/
+.env
+.DS_Store
+.agents/
+skills-lock.json
