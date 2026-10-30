@@ -1,4 +1,4 @@
-# Nevis Search API
+# Search API
 
 I built a single search API for financial advisors to find clients by partial identifying details and documents by related concepts. `NevisWealth` finds `john.doe@neviswealth.com`; `address proof` finds a document containing `utility bill`.
 
