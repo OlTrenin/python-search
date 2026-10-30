@@ -1,0 +1,15 @@
+.git
+.agents
+.venv
+.pytest_cache
+.coverage
+htmlcov
+.env
+**/__pycache__
+**/*.py[cod]
+data
+models
+*.pdf
+.DS_Store
+README.md
+docs
